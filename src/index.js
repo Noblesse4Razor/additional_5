@@ -18,6 +18,5 @@ module.exports = function parenthesesAreBalanced(string,parentheses) {
         else if(stack.pop()!=char)
             return false;
     }
-
     return stack.length === 0;
 }
